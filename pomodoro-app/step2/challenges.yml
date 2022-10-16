@@ -1,5 +1,5 @@
-name: 'The UI'
-stepId: step1
+name: 'A Pomodoro'
+stepId: step2
 stepBreakDown:
 - text: 'The countdown should start at 25:00 when the start button is clicked'
 - text: 'The button must be removed once the timer starts'

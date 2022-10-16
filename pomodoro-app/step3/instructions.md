@@ -1,24 +1,7 @@
-In this step, we will start working on a simple 25 minute timer. When the start
-button is clicked, a 25 minute timer should start, keep updating, and end when
-it hits 0:00.
+Now that we have pomodoros, we need breaks. For now, we will add short breaks
+only. Once a pomodoro is over, a 5 minute break will start, after which a new
+pomodoro will start again. The start button should never be shown again. Also,
+the heading at the top must change to indicate whether it is currently a break
+or a pomodoro.
 
-Here are some tips on how you can do it:
-
-- Add a click event listener on the start button to run the main code.
-- Store the time remaining in seconds. Start at `25 * 60 = 1500` seconds.
-- Use a `setTimeout` with a `1000`ms delay to update the UI every second.
-```javascript
-function run() {
-	  // code
-	  if (time > 0) setTimeout(run, 1000);
-	  else reset();
-}
-
-// ...
-
-setTimeout(run, 1000);
-```
-
-- You can convert seconds to minutes with `Math.round(time / 60)` and get the
-remaining seconds with `time % 60`
-
+This should be quite easy, so I'm not giving you any pointers here. Good luck!
